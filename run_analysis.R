@@ -59,7 +59,7 @@
      #merge to create the final tidy dataset 
           final <- cbind(names,z)
      #save the tidy dataset 
-          write.table(final,"tidy_data.txt")
+          write.table(final,"tidy_data.txt",row.name=FALSE)
 
 
 
